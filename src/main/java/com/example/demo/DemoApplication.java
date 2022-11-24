@@ -9,7 +9,7 @@ public class DemoApplication {
 
 @GetMapping("/welcome")
 	public String welcome(){
-		System.out.println("Welcome to Java Techie");
+		return "This is welcome";
 	}
 
 	public static void main(String[] args) {
